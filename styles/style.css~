@@ -1,0 +1,210 @@
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input {margin:0;padding:0;color:#fff;}
+a{color:#fff;text-decoration:none;}
+
+.yellow{font-weight: bold;color: #FFD500;}
+.bluegrey{color: #7E8294; float: left;  margin-left: 41px;}
+	.txtbluegrey{float: right;  margin-right: 45px;margin-left: -73px;}
+
+.buttom{transition: 1s;padding: 10px;border: 1px solid #FFC200;border-radius: 20px;width: 150px;margin: 20px auto;}
+	.buttom a{text-decoration:none;}
+	.buttom:hover{background:#FFC200;color:#000;}
+
+body {background:#25272C url(../images/bgimg.png) no-repeat;font:14px Tahoma, Arial, Helvetica, sans-serif;}
+
+.header{width:100%;height:60px;background:rgba(0, 0, 0, 0.6);margin-bottom:60px;}
+
+.logo{  margin-left: 30px;  margin-right: 60px;width:200px; height:50px; background:url(../images/logo.png) no-repeat;  float: left;}
+
+.topmenu{  padding: 22px;font-weight: bold;font-size: 12px;float:left;}
+	.topmenu li{display: inline;  text-transform: uppercase;margin-left: 20px;}
+	.topmenu a{text-decoration:none;}
+
+.buttomstop{transition: 1s;padding: 6px 12px;margin: 15px;border: 1px solid #FFC200;border-radius: 20px;width: 125px;text-align: center;float:left;  margin-left: 55px;}
+	.buttomstop:hover{background:#FFC200;color:#000;}
+	.steamico{float:left;width:30px;height:15px;background:url(../images/steamico.png) no-repeat;}
+
+
+.twitter{background:url(../images/twitter.png) no-repeat;width:30px;height:30px;transition: 1s;float:left;  margin-top: 15px;}
+	.twitter:hover{background:url(../images/twitterhover.png) no-repeat;}
+.vk{background:url(../images/vk.png) no-repeat;width:30px;height:30px;transition: 1s;float:left;  margin-top: 15px;}
+	.vk:hover{background:url(../images/vkhover.png) no-repeat;}
+
+.center{width:1160px; height:100%;margin:0 auto;}
+
+.sidebar{width:300px;height:800px;float:left;}
+	.sidebarblock{width: 235px;height: 215px;border: 1px solid #141415;background:rgba(41, 42, 47, 0.8);margin-bottom:20px;padding:15px;text-align: center;}
+	.sidebarblock img{width:100px;height:100px;margin:0 auto;}
+.bottomblock{	width: 235px;height: 40px;border: 1px solid #141415;background:#24262A;margin-bottom:20px;padding:15px;text-align: center;}
+
+.contentblock{
+	width: 748px;
+	height: 150px;
+	float: left;
+	margin-left: 20px;
+	border: 1px solid #141415;
+	background: rgba(41, 42, 47, 0.8);
+	margin-bottom: 20px;
+	padding: 45px;
+}
+
+.titleblock{font-size:16px;font-weight:bold;padding:5px;}
+.buttomcont{background:#F8C22D;  width: 420px;margin-top: 15px;color: #000;padding: 8px 15px;line-height: 30px;border-radius: 3px;}
+
+.txtspc{  font-size: 11px;font-weight: bold;}
+.colortxtblock{margin-top: 15px;color: #F8C22D; font-size: 40px; background: linear-gradient(#F7D457, #E4B22B);-webkit-background-clip: text;}
+.razdelit{width: 35px; height:105px;background:url(../images/linerazd.png) no-repeat;float: left;margin-top: -11px;margin-left: 20px;margin-right: 10px;}
+.statsblock{float:left;  padding: 5px;  margin-left: 15px;}
+
+.txtblockcnop{text-align: center; font-size: 15px; font-weight: bold; text-transform: uppercase; margin-bottom: 26px;}
+.cs{background: url(../images/cs.png) no-repeat;width: 252px;height: 65px;  margin-right: 20px;float: left;}
+.dota2{background: url(../images/dota2.png) no-repeat;width: 252px;height: 65px; margin-right: 20px;  float: left;}
+.tf{background: url(../images/tf.png) no-repeat;width: 252px;height: 65px;  float: left;}
+
+
+
+
+
+.b-progress-bar{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+	background: #323438;
+	text-align: center;
+	float: left;
+	margin-top: -15px;
+	margin-left: 20px;
+}
+
+.b-progress-bar span{
+	display: inline-block;
+	vertical-align: middle;
+	background-color: rgb(39, 40, 45);
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	font-size: 4rem;
+  	
+	line-height: 5;
+  	
+	color: white;
+  	
+	font-weight: bold;
+
+	font-size: 18px;
+}
+
+.b-progress-bar div{
+	background-color: rgb(255, 174, 0);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 105px;
+	height: 33px;
+	transform-origin: 0 -10%;
+
+}
+
+.b-progress-bar div:nth-child(1){
+	transform:rotate(0deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(2){
+	transform:rotate(18deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(3){
+	transform:rotate(36deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(4){
+	transform:rotate(54deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(5){
+	transform:rotate(72deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(6){
+	transform:rotate(90deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(7){
+	transform:rotate(108deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(8){
+	transform:rotate(126deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(9){
+	transform:rotate(144deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(10){
+	transform:rotate(162deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(11){
+	transform:rotate(180deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(12){
+	transform:rotate(198deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(13){
+	transform:rotate(216deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(14){
+	transform:rotate(234deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(15){
+	transform:rotate(252deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(16){
+	transform:rotate(270deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(17){
+	transform:rotate(288deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(18){
+	transform:rotate(306deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(19){
+	transform:rotate(324deg)translate(0,-50%);
+}
+.b-progress-bar div:nth-child(20){
+	transform:rotate(342deg)translate(0,-50%);
+}
+
+.games{float:left;  padding: 5px;  margin-left: 15px;}
+.gamesum{float: left;margin-left: 60px;}
+.gamesumname{font-size: 13px;font-weight: bold;color: #575A5F;}
+.gamesumfor{font-size: 25px;font-weight: bold;padding: 6px 35px;background: #222328;margin-top: 10px;}
+.txtgamesno{font-size: 12px;font-weight: bold;padding: 6px 15px;float: left;background: #222328;margin-top: 10px;}
+.zvuk{ background: url(../images/zvuk.png) no-repeat; width: 15px; height: 15px; float: right; margin-left: 5px; }
+.clock{background: url(../images/clock.png) no-repeat; width: 15px; height: 15px; float: left; margin-top: -2px; margin-right: 2px; }
+.avaimg{background-size: cover;width: 65px;height: 65px;margin-left: 11px;  margin-top: 8px;margin-bottom: 8px;}
+.buttomvnesti{background: url(../images/buttomvnesti.png) no-repeat; width: 270px; height: 50px; float: left;   margin: 25px 55px 0px 85px; }
+.txtstylel{ font-size: 14px; font-weight: bold; text-transform: uppercase; }
+
+.blocksss{width: 798px; height: 119px; border-bottom: 1px solid #141415; color: #7D808E; font-size: 13px; padding: 15px 20px; font-weight: bold;}
+.imgstylee{float: left; margin-top: 15px;  margin-left: 15px;}
+	.imgstylee img{width:85px;height:85px;}
+.procentpobedi{width: 85px; height: 18px; background: rgba(0, 0, 0, 0.7); margin-top: -21px; position: relative; font-size: 11px; text-align: center; line-height: 18px; font-weight: normal;}
+
+.istornick{ color: #FFAE00; margin-top: 20px; font-weight: bold; }
+.istorblockst{ width: 102px; height: 72px; float: left; margin-top: 10px;  font-size: 12px;}
+.istorcen{padding: 10px 20px; background: #252629;  float: right;margin-right: 10px;}
+.istroblockstn{line-height: 36px; width: 162px; height: 102px; float: left; border-right: 1px solid #3A3C42;}
+.istorblocktxt{margin-top: 10px; font-size: 12px; font-weight: bold; color: #A7AAB6;}
+.istorblockcub{float: left; margin-left: 25px;  margin-top: 10px;}
+.istorblockbubix{background: #3A3C42; width: 35px; height: 35px;  float: left; margin-right:10px;margin-bottom:10px;}
+.istortxtinfo{float: right; padding: 6px 15px; background: #B6A069; border-radius: 2px; margin-top: -90px; margin-right: -35px; font-size: 13px; }
+
+
+body:not(#Foo) label
+  {padding:2px 0px 2px 20px;}
+
+body:not(#Foo) input[type=checkbox]
+  {display:none;}
+
+body:not(#Foo) input[type=checkbox] + label
+  {background:url(../images/checkboxoff.png) no-repeat 0px 0px;}
+
+body:not(#Foo) input[type=checkbox]:checked + label
+  {background:url(../images/checkboxon.png) no-repeat 0px 0px;}
